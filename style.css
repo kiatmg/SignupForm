@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+main {
+  display: flex;
+}
+.bg {
+  position: relative;
+  width: 50%;
+  height: 100vh;
+}
+.bg img {
+  position: relative;
+  right: 60px;
+  width: 120%;
+  height: inherit;
+}

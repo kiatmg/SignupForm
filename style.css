@@ -12,7 +12,68 @@ main {
 }
 .bg img {
   position: relative;
-  right: 60px;
-  width: 120%;
+  width: 100%;
   height: inherit;
+}
+.phrase {
+  width: 700px;
+  flex-shrink: 0;
+  font-size: 24px;
+  font-style: italic;
+  color: #37351f;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.formdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.formdata {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  background-color: rgb(255, 255, 255);
+  padding: 50px 150px 50px 20px;
+  box-shadow: 50px 0px 100px #e1593b;
+}
+.formdata div {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+input {
+  width: 300px;
+  font-size: 16px;
+  padding: 5px 5px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #e4bbb2;
+}
+#confirm {
+  margin-top: 80px;
+  margin-left: 20px;
+  width: 190px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #e1593b;
+}
+p {
+  font-size: large;
+  display: inline;
+}
+.login {
+  margin-left: 20px;
+}
+
+label {
+  font-size: medium;
+}
+a {
+  text-decoration: none;
+  color: #e1593b;
+}
+form {
+  font-family: Arial, Helvetica, sans-serif;
 }
